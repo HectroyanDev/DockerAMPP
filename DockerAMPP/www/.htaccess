@@ -1,6 +1,0 @@
-RewriteEngine On
-RewriteCond %{ENV:HTTPS} !on [NC]
-RewriteCond %{HTTP_HOST} ^panel.graduacionesuniversitarias\.org$
-RewriteRule ^(.*)$ https://panel.graduacionesuniversitarias.org/$1 [R,L]
-
-Options -Indexes
