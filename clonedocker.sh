@@ -1,7 +1,7 @@
 printf "What's the directory where are you going to create your Dockered application? [C]=>For cancel the command"
 echo
 #change the directory on whatever you want to create the new project
-DIR="/home/casfid/Documentos/Proyectos"
+DIR=""
 # Ininicialize a while waiting the exit in the script
 while true ; do
     read answer

@@ -8,6 +8,10 @@ Utilizar *Docker* es sencillo, pero existen tantas imágenes, versiones y formas
 
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
+## Configuración del script sh
+
+En primer lugar dentro de clonedocker.sh hay que configurar DIR, el cual será donde se alojarán nuestros proyectos
+
 ## Configurar el ambiente de desarrollo
 
 Puedes utilizar la configuración por defecto, pero en ocasiones es recomendable modificar la configuración para que sea igual al servidor de producción. La configuración se ubica en el archivo `.env` con las siguientes opciones:
@@ -42,8 +46,6 @@ docker-compose down     # Detener y eliminar el ambiente de desarrollo.
 
 * `DockerAMPP/docker/` contiene los archivos de configuración de Docker.
 * `DockerAMPP/www/` carpeta para los archivos PHP del proyecto.
-
-## Accesos
 
 ### Web
 
